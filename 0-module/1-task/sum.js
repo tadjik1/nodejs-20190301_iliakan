@@ -1,5 +1,5 @@
 function sum(a, b) {
-  if (typeof a !== 'Number' || typeof b !== 'Number') {
+  if (typeof a !== 'number' || typeof b !== 'number') {
     throw new TypeError();
   }
 
